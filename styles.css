@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #ffa07a;
+}
+
+header {
+    background-color: #008080;
+}
+
+nav {
+    margin-left: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        margin-left: 30px;
+    }
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 70px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffa07a;
+}
+
+#div-1 {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+@media only screen and (max-width: 600px) {
+    #div-1 {
+        height: 200px;
+    }
+}
+
+#div-1 h1 {
+    color: coral;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#div-2 {
+    margin: 64px 0 64px 22.5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #div-2 {
+        margin-top: 32px;
+    }
+}
+
+#div-2 h4 {
+    color: #ffff00;
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+#div-2 p {
+    color: white;
+    font-size: 1.1rem;
+}
+
+#div-2 p a {
+    color: #551a8b;
+}
+
+#div-2 p a:active {
+    color: red;
+}
+
+#image-flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#image-flexbox img {
+    width: 432px;
+    height: 288px;
+    margin: 22.5px;
+}
+
+#div-3 {
+    margin: 64px 0;
+    padding: 16px 22.5px 16px 22.5px;
+    color: #ffff00;
+    background-color: #008080;
+}
+
+#div-3 h1 {
+    font-weight: 300;
+}
+
+#div-3 p {
+    font-size: 1.1rem;
+}
+
+#div-4 {
+    color: #ffff00;
+    text-align: center;
+}
+
+#div-4 h2 {
+    margin-top: 80px;
+    font-size: 1.9rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#div-4 img {
+    width: 720px;
+    height: 929px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #div-4 img {
+        width: 480px;
+        height: 619px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #div-4 img {
+        width: 360px;
+        height: 465px;
+    }
+}
+
+#div-4 p {
+    margin-top: 25px;
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+footer {
+    background-color: #008080;
+}
